@@ -17,11 +17,25 @@
  *  b. you'll need a loop, which one is best?
  *  c. you'll wanna make use of the push() method of Array.
  */
+if (start < end) {
 function range(start, end) {
     // YOUR CODE GOES BELOW HERE // 
+   var ans = [];
+   for (let i = start; i <= end; i++) {
+     ans.push(i);
+   }
+   console.log(ans)
+ } else if(start > end)
+  range(8, 14); 
+}
+
+
+
+
+
  
+
     
     
     
     // YOUR CODE GOES ABOVE HERE //
-}
